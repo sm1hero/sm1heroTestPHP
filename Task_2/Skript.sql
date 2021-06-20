@@ -1,5 +1,5 @@
 SELECT 
-    a.author_name, a.author_surname, author_otch, COUNT(*) books
+    a.author_name, a.author_surname, a.author_otch, COUNT(*) books
 FROM
     author a,
     authorbook ab
